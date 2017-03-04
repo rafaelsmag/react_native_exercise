@@ -1,0 +1,457 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"title",
+				"titleStyle"
+			],
+			[
+				"Li",
+				"ListView"
+			],
+			[
+				"sty",
+				"style"
+			],
+			[
+				"render",
+				"renderContent"
+			],
+			[
+				"onl",
+				"onLoginFailed"
+			],
+			[
+				"on",
+				"onLoginSucess"
+			],
+			[
+				"er",
+				"errorTextStyle"
+			],
+			[
+				"ca",
+				"CardSection"
+			],
+			[
+				"Card",
+				"CardSection"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/App.js",
+			"settings":
+			{
+				"buffer_size": 490,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "app.js"
+			}
+		},
+		{
+			"file": "src/reducers/index.js",
+			"settings":
+			{
+				"buffer_size": 153,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "index.js"
+			}
+		},
+		{
+			"file": "src/components/LibraryList.js",
+			"settings":
+			{
+				"buffer_size": 691,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "LibraryList.js"
+			}
+		},
+		{
+			"contents": "import  React, { Component } from 'react';\nimport { Text, StyleSheet } from 'react-native';\nimport { CardSection } from './common';\n\nclass ListItem extends Component {\n\trender() {\n\t\tconst { titleStyle } = styles;\n\t\treturn (\n\t\t\t<CardSection>\n\t\t\t\t<Text style={titleStyle}>\n\t\t\t\t\t{this.props.library.title}\n\t\t\t\t</Text>\n\t\t\t</CardSection>\n\t\t\t);\n\t}\n}\n\n\nconst styles = StyleSheet.create({\n\ttitleStyle: {\n\t\tfontSize: 18,\n\t\tpaddingLeft: 15\n\t}\n});\n\nexport default ListItem;\n",
+			"file": "src/components/ListItem.js",
+			"file_size": 476,
+			"file_write_time": 131331209694564634,
+			"settings":
+			{
+				"buffer_size": 463,
+				"line_ending": "Windows",
+				"name": "ListItem.js"
+			}
+		},
+		{
+			"file": "/H/Programacao/ReactNative/learning_react_native/albums/index.ios.js",
+			"settings":
+			{
+				"buffer_size": 1060,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"material ",
+				"Material Theme: Activate theme"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Install Package Control"
+			]
+		],
+		"width": 398.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/H/Programacao/ReactNative/tech_stack",
+		"/H/Programacao/ReactNative/tech_stack/src",
+		"/H/Programacao/ReactNative/tech_stack/src/components",
+		"/H/Programacao/ReactNative/tech_stack/src/reducers"
+	],
+	"file_history":
+	[
+		"/H/Programacao/ReactNative/learning_react_native/albums/index.android.js",
+		"/H/Programacao/ReactNative/albums/.gitignore",
+		"/H/Programacao/ReactNative/tech_stack/src/reducers/LibraryReducer.js",
+		"/H/Programacao/ReactNative/tech_stack/src/reducers/LibraryList.json",
+		"/H/Programacao/ReactNative/tech_stack/index.android.js",
+		"/H/Programacao/ReactNative/tech_stack/index.ios.js",
+		"/H/Programacao/ReactNative/tech_stack/package.json",
+		"/H/Programacao/ReactNative/tech_stack/.eslintrc",
+		"/H/Programacao/ReactNative/auth/src/components/common/Spinner.js",
+		"/H/Programacao/ReactNative/auth/src/App.js",
+		"/H/Programacao/ReactNative/auth/src/components/LoginForm.js",
+		"/H/Programacao/ReactNative/auth/src/components/common/Input.js",
+		"/H/Programacao/ReactNative/auth/src/components/common/Header.js",
+		"/H/Programacao/ReactNative/auth/src/components/common/Button.js",
+		"/H/Programacao/ReactNative/auth/src/components/common/Card.js",
+		"/H/Programacao/ReactNative/auth/src/components/common/index.js",
+		"/C/xampp/htdocs/doctormate/dev-api/app.json",
+		"/C/xampp/htdocs/doctormate/dev-api/web/api/composer.json",
+		"/H/Downloads/DM_AC.csv",
+		"/H/Documentos/Doctormate/api-dev/web/api/application/models/Groups_model.php",
+		"/H/Programacao/ReactNative/auth/package.json",
+		"/H/Programacao/ReactNative/auth/src/components/common/CardSection.js",
+		"/H/Programacao/ReactNative/albums/src/components/CardSection.js",
+		"/H/Programacao/ReactNative/auth/.eslintrc",
+		"/H/Programacao/ReactNative/albums/.eslintrc",
+		"/H/Programacao/ReactNative/auth/index.android.js",
+		"/H/Programacao/ReactNative/auth/index.ios.js",
+		"/H/Programacao/ReactNative/auth/index.android.sublime-project",
+		"/H/Programacao/ReactNative/albums/src/components/AlbumList.js",
+		"/H/Programacao/ReactNative/albums/src/components/Button.js",
+		"/H/Programacao/ReactNative/albums/src/components/AlbumDetail.js",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/H/Programacao/ReactNative/LeitorApp/README.md"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/App.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 490,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								337,
+								337
+							]
+						],
+						"settings":
+						{
+							"auto_name": "app.js",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/reducers/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 153,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								40,
+								87
+							]
+						],
+						"settings":
+						{
+							"auto_name": "index.js",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/components/LibraryList.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 691,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								421,
+								428
+							]
+						],
+						"settings":
+						{
+							"auto_name": "LibraryList.js",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/components/ListItem.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 463,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								463,
+								463
+							]
+						],
+						"settings":
+						{
+							"auto_name": "ListItem.js",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/H/Programacao/ReactNative/learning_react_native/albums/index.ios.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1060,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 63.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "tech_stack.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 224.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
