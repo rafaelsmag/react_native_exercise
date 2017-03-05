@@ -56,62 +56,11 @@
 	"buffers":
 	[
 		{
-			"file": "src/App.js",
+			"file": "index.android.js",
 			"settings":
 			{
-				"buffer_size": 490,
-				"encoding": "UTF-8",
-				"line_ending": "Windows",
-				"name": "app.js"
-			}
-		},
-		{
-			"file": "src/components/LibraryList.js",
-			"settings":
-			{
-				"buffer_size": 691,
-				"encoding": "UTF-8",
-				"line_ending": "Windows",
-				"name": "LibraryList.js"
-			}
-		},
-		{
-			"file": "src/components/ListItem.js",
-			"settings":
-			{
-				"buffer_size": 1492,
-				"encoding": "UTF-8",
-				"line_ending": "Windows",
-				"name": "ListItem.js"
-			}
-		},
-		{
-			"file": "src/actions/index.js",
-			"settings":
-			{
-				"buffer_size": 110,
-				"encoding": "UTF-8",
-				"line_ending": "Windows",
-				"name": "index.js"
-			}
-		},
-		{
-			"file": "src/reducers/index.js",
-			"settings":
-			{
-				"buffer_size": 242,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/reducers/SelectionReducer.js",
-			"settings":
-			{
-				"buffer_size": 152,
-				"encoding": "UTF-8",
-				"line_ending": "Windows",
-				"name": "SelectionReducer.js"
+				"buffer_size": 1097,
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -167,16 +116,17 @@
 	},
 	"expanded_folders":
 	[
-		"/H/Programacao/ReactNative/learning_react_native/tech_stack",
-		"/H/Programacao/ReactNative/learning_react_native/tech_stack/src",
-		"/H/Programacao/ReactNative/learning_react_native/tech_stack/src/actions",
-		"/H/Programacao/ReactNative/learning_react_native/tech_stack/src/components",
-		"/H/Programacao/ReactNative/learning_react_native/tech_stack/src/reducers"
+		"/H/Programacao/ReactNative/learning_react_native/manager"
 	],
 	"file_history":
 	[
-		"/H/Programacao/ReactNative/learning_react_native/tech_stack/src/reducers/LibraryReducer.js",
+		"/H/Programacao/ReactNative/learning_react_native/tech_stack/src/reducers/SelectionReducer.js",
 		"/H/Programacao/ReactNative/learning_react_native/tech_stack/src/reducers/index.js",
+		"/H/Programacao/ReactNative/learning_react_native/tech_stack/src/actions/index.js",
+		"/H/Programacao/ReactNative/learning_react_native/tech_stack/src/components/ListItem.js",
+		"/H/Programacao/ReactNative/learning_react_native/tech_stack/src/components/LibraryList.js",
+		"/H/Programacao/ReactNative/learning_react_native/tech_stack/src/App.js",
+		"/H/Programacao/ReactNative/learning_react_native/tech_stack/src/reducers/LibraryReducer.js",
 		"/H/Programacao/ReactNative/learning_react_native/albums/index.ios.js",
 		"/H/Programacao/ReactNative/learning_react_native/albums/index.android.js",
 		"/H/Programacao/ReactNative/albums/.gitignore",
@@ -246,182 +196,37 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "src/App.js",
+					"file": "index.android.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 490,
+						"buffer_size": 1097,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								337,
-								337
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"auto_name": "app.js",
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/components/LibraryList.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 691,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								421,
-								428
-							]
-						],
-						"settings":
-						{
-							"auto_name": "LibraryList.js",
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "src/components/ListItem.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1492,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								214,
-								214
-							]
-						],
-						"settings":
-						{
-							"auto_name": "ListItem.js",
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "src/actions/index.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 110,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								110,
-								110
-							]
-						],
-						"settings":
-						{
-							"auto_name": "index.js",
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "src/reducers/index.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 242,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								210,
-								210
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "src/reducers/SelectionReducer.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 152,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								91,
-								91
-							]
-						],
-						"settings":
-						{
-							"auto_name": "SelectionReducer.js",
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -463,7 +268,7 @@
 		"height": 0.0
 	},
 	"pinned_build_system": "",
-	"project": "tech_stack.sublime-project",
+	"project": "manager.sublime-project",
 	"replace":
 	{
 		"height": 46.0
