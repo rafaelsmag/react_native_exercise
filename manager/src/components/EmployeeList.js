@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import { ListView, Text } from 'react-native';
 import { connect } from 'react-redux';
 import { employeesFetch } from '../actions';
+import ListItem from './ListItem';
 
 class EmployeeList extends Component {
 
@@ -23,7 +24,7 @@ class EmployeeList extends Component {
 	}
 
 	renderRow(employee) {
-		return <Text>{employee.name}</Text>;
+		return <ListItem employee={employee} />;
 	}
 
 	render() {

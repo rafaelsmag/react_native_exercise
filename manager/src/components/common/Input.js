@@ -21,22 +21,23 @@ const Input = ({ label, value, onChangeText, placeholder, secureTextEntry }) => 
 const styles = {
 	inputStyle: {
 		color: '#000',
-		paddingRight: 5,
-		paddingLeft: 5,
-		fontSize: 16,
-		lineHeight: 23,
-		flex: 3
-	},
-	labelStyle: {
-		fontSize: 16,
-		paddingLeft: 20,
+		marginRight: '3%',
+		marginLeft: '3%',
+		paddingLeft: '2%',
+		paddingRight: '2%',		
 		flex: 1
 	},
-	containerStyle: {
-		height: 40,
+	labelStyle: {
+		fontSize: 14,
+		paddingLeft: '5%',
 		flex: 1,
-		flexDirection: 'row',
-		alignItems: 'center'
+		color: '#009688'
+	},
+	containerStyle: {
+		height: 55,
+		flex: 1,
+		flexDirection: 'column',
+		justifyContent: 'space-between'
 	}
 };
 
